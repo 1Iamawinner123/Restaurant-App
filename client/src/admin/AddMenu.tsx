@@ -67,7 +67,7 @@ const AddMenu = () => {
           Available Menus
         </h1>
         <Dialog open={open} onOpenChange={setOpen}>
-          <DialogTrigger>
+          <DialogTrigger asChild>
             <Button className="bg-orange hover:bg-hoverOrange">
               <Plus className="mr-2" />
               Add Menus
